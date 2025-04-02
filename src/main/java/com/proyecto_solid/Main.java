@@ -133,6 +133,7 @@ public class Main {
     
     
     private static void testFactory(SentimentFactory factory, String[] phrases) {
+        
         for (String phrase : phrases) {
             System.out.println("\nFrase: " + phrase);
 
