@@ -31,9 +31,8 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("=== DEMOSTRACIÓN DE TODOS LOS PRINCIPIOS SOLID ===");
 
-        // 1. Single Responsibility Principle (SRP)
+        // 1 Single Responsibility Principle (SRP)
         demonstrateSRP();
-
         // 2. Open/Closed Principle (OCP)
         demonstrateOCP();
 
@@ -131,7 +130,8 @@ public class Main {
         System.out.println("\nFábrica Avanzada:");
         testFactory(new AdvancedSentimentFactory(), testPhrases);
     }
-
+    
+    
     private static void testFactory(SentimentFactory factory, String[] phrases) {
         for (String phrase : phrases) {
             System.out.println("\nFrase: " + phrase);
